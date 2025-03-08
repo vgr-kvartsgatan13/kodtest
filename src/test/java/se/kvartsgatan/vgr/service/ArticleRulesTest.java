@@ -4,7 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import se.kvartsgatan.vgr.domain.article.Article;
-import se.kvartsgatan.vgr.values.ArticleRecord;
+import se.kvartsgatan.vgr.domain.article.ArticleRecord;
+import se.kvartsgatan.vgr.domain.article.ArticleRuleException;
+import se.kvartsgatan.vgr.domain.article.ArticleRules;
 
 import static org.junit.jupiter.api.Assertions.*;
 

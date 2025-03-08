@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import se.kvartsgatan.vgr.service.ArticleRuleException;
+import se.kvartsgatan.vgr.domain.article.ArticleRuleException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

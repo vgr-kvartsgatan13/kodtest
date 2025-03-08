@@ -1,4 +1,4 @@
-package se.kvartsgatan.vgr.values;
+package se.kvartsgatan.vgr.domain.article;
 
 import java.math.BigDecimal;
 

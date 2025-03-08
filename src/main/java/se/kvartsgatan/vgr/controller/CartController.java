@@ -11,8 +11,8 @@ import jakarta.validation.Valid;
 import se.kvartsgatan.vgr.controller.request.CartRequest;
 import se.kvartsgatan.vgr.controller.response.ReceiptMapper;
 import se.kvartsgatan.vgr.controller.response.ReceiptResonse;
+import se.kvartsgatan.vgr.domain.receipt.ReceiptRecord;
 import se.kvartsgatan.vgr.service.CartService;
-import se.kvartsgatan.vgr.values.ReceiptRecord;
 
 @RequestMapping(value = "/api/cart")
 @RestController
@@ -30,7 +30,6 @@ public class CartController {
 			produces = MediaType.APPLICATION_JSON_VALUE
 			)
 	public ResponseEntity<ReceiptResonse> addPurchase(@RequestBody @Valid CartRequest cart){
-		System.out.println(cart);
 		ReceiptRecord receipt = cartService.placeOrder(cart);
 		return ResponseEntity.ok(ReceiptMapper.fromRecord(receipt));
 		

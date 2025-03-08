@@ -1,13 +1,10 @@
-package se.kvartsgatan.vgr.service;
+package se.kvartsgatan.vgr.domain.article;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
-
-import se.kvartsgatan.vgr.domain.article.Article;
-import se.kvartsgatan.vgr.values.ArticleRecord;
 
 @Component
 public class ArticleRules {

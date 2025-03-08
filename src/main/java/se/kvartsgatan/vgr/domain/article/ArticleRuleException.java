@@ -1,4 +1,4 @@
-package se.kvartsgatan.vgr.service;
+package se.kvartsgatan.vgr.domain.article;
 
 public class ArticleRuleException extends RuntimeException {
 

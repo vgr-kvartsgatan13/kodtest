@@ -1,7 +1,7 @@
 package se.kvartsgatan.vgr.controller.response;
 
-import se.kvartsgatan.vgr.values.ArticleRecord;
-import se.kvartsgatan.vgr.values.ReceiptRecord;
+import se.kvartsgatan.vgr.domain.article.ArticleRecord;
+import se.kvartsgatan.vgr.domain.receipt.ReceiptRecord;
 
 public class ReceiptMapper {
 	
